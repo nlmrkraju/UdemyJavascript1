@@ -80,6 +80,48 @@ const displayMovements = function (movements) {
 };
 displayMovements(account1.movements);
 
+const calcDisplayBalance = function (movements) {
+  const balance = movements.reduce((acc, mov) => acc + mov, 0);
+  labelBalance.textContent = `${balance}€`;
+};
+
+calcDisplayBalance(account1.movements);
+
+const calcDisplaySummary = function (movements) {
+  const incomes = movements
+    .filter(mov => mov > 0)
+    .reduce((acc, mov) => acc + mov, 0);
+  labelSumIn.textContent = `${incomes}€`;
+
+  const out = movements
+    .filter(mov => mov < 0)
+    .reduce((acc, mov) => acc + mov, 0);
+  labelSumOut.textContent = `${Math.abs(out)}€`;
+
+  const interest = movements
+    .filter(mov => mov > 0)
+    .map(deposit => (deposit * 1.2) / 100)
+    .filter((int, i, arr) => {
+      return int >= 1;
+    })
+    .reduce((acc, int) => acc + int, 0);
+  labelSumInterest.textContent = `${interest}€`;
+};
+calcDisplaySummary(account1.movements);
+
+const createUsernames = function (accs) {
+  accs.forEach(function (acc) {
+    acc.name = acc.owner
+      .toLocaleLowerCase()
+      .split(' ')
+      .map(name => name[0])
+      .join('');
+  });
+};
+
+createUsernames(accounts);
+//console.log(accounts);
+
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
@@ -217,3 +259,133 @@ checkDogs([9, 16, 6, 8, 3], [10, 5, 6, 1, 4]);
 */
 
 //! Data Transformation With Map, Filter and Reduce
+//? Map --> map returns a new array containing the results of applying an operation on all original array elements.
+//? Filter --> filter returns a new array containing the array elements that passed a specified test condition.
+//? Reduce --> reduce boils ("recudes") all array elements down to one sing value (e.g. adding all elements together)
+
+//! The Map Method
+/*
+const eurToUsd = 1.1;
+
+const movementsUSD = movements.map(function (mov) {
+  return mov * eurToUsd;
+});
+
+console.log(movements);
+console.log(movementsUSD);
+
+const movementsUSDCallBack = movements.map(mov => mov * eurToUsd);
+console.log(movementsUSDCallBack);
+
+const movementsDescriptions = movements.map(
+  (mov, i) =>
+    `Movement ${i + 1} : You ${mov > 0 ? 'deposited' : 'withdrew'} ${Math.abs(
+      mov
+    )}`
+);
+console.log(movementsDescriptions);
+*/
+
+//! Computing User Names
+//! Filter
+/*
+const deposits = movements.filter(function (mov) {
+  return mov > 0;
+});
+const withdrawals = movements.filter(mov => mov < 0);
+console.log(movements);
+console.log(deposits);
+console.log(withdrawals);
+*/
+
+//! The Reduce Method
+//? acc --> Accumulator is like a snowball
+// const balance = movements.reduce(function (acc, cur, i, arr) {
+//   console.log(`Iteration ${i}: ${acc}`);
+//   return acc + cur;
+// }, 0);
+/*
+const balance = movements.reduce((acc, cur) => acc + cur, 0);
+console.log(balance);
+
+//? Maximum value
+const max = movements.reduce((acc, mov) => {
+  if (acc > mov) return acc;
+  else return mov;
+}, movements[0]);
+console.log(max);
+*/
+
+// Let's go back to Julia and Kate's study about dogs. This time, they want to convert
+// dog ages to human ages and calculate the average age of the dogs in their study.
+// Your tasks:
+// Create a function 'calcAverageHumanAge', which accepts an arrays of dog's
+// ages ('ages'), and does the following things in order:
+// 1. Calculate the dog age in human years using the following formula: if the dog is
+// <= 2 years old, humanAge = 2 * dogAge. If the dog is > 2 years old,
+// humanAge = 16 + dogAge * 4
+// 2. Exclude all dogs that are less than 18 human years old (which is the same as
+// keeping dogs that are at least 18 years old)
+// 3. Calculate the average human age of all adult dogs (you should already know
+// from other challenges how we calculate averages 😉)
+// 4. Run the function for both test datasets
+// Test data:
+// § Data 1: [5, 2, 4, 1, 15, 8, 3]
+// § Data 2: [16, 6, 10, 5, 6, 1, 4]
+
+/*
+const calcAverageHumanAge = function (dogsAges) {
+  // console.log(dogsAges);
+  const humanAges = dogsAges.map(dogAge =>
+    dogAge <= 2 ? 2 * dogAge : 16 + dogAge * 4
+  );
+  // console.log(humanAges);
+  const adultDogs = humanAges.filter(adultDog => adultDog >= 18);
+  // console.log(adultDogs);
+  // const avgHumanAge =
+  //   adultDogs.reduce((acc, adultDog) => acc + adultDog, 0) / adultDogs.length;
+  // console.log(avgHumanAge);
+
+  const avgHumanAge = adultDogs.reduce(
+    (acc, adultDog, i, arr) => acc + adultDog / arr.length,
+    0
+  );
+  console.log(avgHumanAge);
+};
+calcAverageHumanAge([5, 2, 4, 1, 15, 8, 3]);
+calcAverageHumanAge([16, 6, 10, 5, 6, 1, 4]);
+*/
+
+//! The Magic of Chaining Methods
+/*
+const eurToUsd = 1.1;
+//? PIPELINE
+// const totoalDepositsUSD = movements
+//   .filter(mov => mov > 0)
+//   .map(mov => mov * eurToUsd)
+//   .reduce((acc, mov) => acc + mov, 0);
+// console.log(totoalDepositsUSD);
+
+const totoalDepositsUSD = movements
+  .filter(mov => mov > 0)
+  .map((mov, i, arr) => {
+    return mov * eurToUsd;
+  })
+  .reduce((acc, mov) => acc + mov, 0);
+console.log(totoalDepositsUSD);
+*/
+
+// Rewrite the 'calcAverageHumanAge' function from Challenge #2, but this time
+// as an arrow function, and using chaining!
+// Test data:
+// § Data 1: [5, 2, 4, 1, 15, 8, 3]
+// § Data 2: [16, 6, 10, 5, 6, 1, 4]
+
+const calcAverageHumanAge = ages =>
+  ages
+    .map(dogAge => (dogAge <= 2 ? 2 * dogAge : 16 + dogAge * 4))
+    .filter(adultDog => adultDog >= 18)
+    .reduce((acc, adultDog, i, arr) => acc + adultDog / arr.length, 0);
+const avg1 = calcAverageHumanAge([5, 2, 4, 1, 15, 8, 3]);
+const avg2 = calcAverageHumanAge([16, 6, 10, 5, 6, 1, 4]);
+console.log(avg1, avg2);
