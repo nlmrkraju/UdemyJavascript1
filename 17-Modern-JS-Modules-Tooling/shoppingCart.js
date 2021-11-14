@@ -3,6 +3,12 @@ console.log(`Exportig Module`);
 //? Variables are scopped to the current module only.
 //? To be used outside the module they need to be exported.
 //? There are 2 types of exports 1. Named and 2. Default
+
+//? Blocking code
+// console.log(`Start fetching users`);
+// await fetch(`https://jsonplaceholder.typicode.com/posts`);
+// console.log(`Finish fetching`);
+
 const shippingCart = 10;
 export const cart = [];
 
