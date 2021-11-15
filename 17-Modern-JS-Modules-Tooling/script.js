@@ -13,20 +13,20 @@
 //! Exporting and importing in ES6 Modules
 //? All modules are excuted in strict mode by default
 //? Name import needs to be in braces
-/*
+
 //import { addToCart, totalPrice as price, tq } from './shoppingCart.js';
 // addToCart('bread', 5);
 // console.log(price, tq);
 
 console.log(`Importing Module`);
 
-// import * as shoppingCart from './shoppingCart.js';
-// shoppingCart.addToCart('bread', 5);
-// console.log(shoppingCart.totalPrice);
+import * as shoppingCart from './shoppingCart.js';
+shoppingCart.addToCart('bread', 5);
+console.log(shoppingCart.totalPrice);
 
 //import add, { addToCart, totalPrice as price, tq } from './shoppingCart.js';
 //console.log(price);
-
+/*
 import add, { cart } from './shoppingCart.js';
 add('pizza', 2);
 add('bread', 5);
@@ -62,7 +62,7 @@ console.log(lastPost2);
 
 */
 //! The Module Pattern
-
+/*
 const ShoppingCart2 = (function () {
   const cart = [];
   const shippingCost = 10;
@@ -93,3 +93,44 @@ ShoppingCart2.addToCart('apple', 4);
 ShoppingCart2.addToCart('pizza', 2);
 console.log(ShoppingCart2);
 console.log(ShoppingCart2.shippingCost);
+*/
+//! CommonJS Modules
+//? Other than Module pattern there are few pattern which are not native java script modules and they rely on some external implementations. Two examples are AMD Modules and CommonJS Modules.
+
+/*
+//? Export
+export.addToCart = function (product, quantity) {
+  cart.push({ product, quantity });
+  console.log(
+    `${quantity} ${product} added to cart (shipping cost is ${shippingCost})`
+  );
+};
+
+//? Import
+const {addToCart} = require('./shoppingCart.js')
+*/
+
+//! A Brief introduction to the command line
+//! Introduction to NPM
+import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
+
+const state = {
+  cart: [
+    { product: 'bread', quantity: 5 },
+    { product: 'pizza', quantity: 3 },
+  ],
+  user: { loggedIn: true },
+};
+
+const stateClone = Object.assign({}, state);
+const stateDeepClone = cloneDeep(state);
+state.user.loggedIn = false;
+console.log(stateClone);
+console.log(stateDeepClone);
+
+//! Bundling with Parcel and NPM Scripts
+//? Parcel is alternative for webpack.
+
+if (module.hot) {
+  module.hot.accept();
+}
