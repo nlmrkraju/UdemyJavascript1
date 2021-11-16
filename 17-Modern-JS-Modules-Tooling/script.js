@@ -153,5 +153,8 @@ import 'core-js/stable';
 // import 'core-js/stable/array/find';
 // import 'core-js/stable/promise';
 
-//? Plifilling async functions
+//? Polyfilling async functions
 import 'regenerator-runtime/runtime';
+
+//! Writing clean and modern javascript
+//! Let's fix some bad code: part 1
