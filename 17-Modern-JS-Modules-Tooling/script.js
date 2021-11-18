@@ -158,3 +158,8 @@ import 'regenerator-runtime/runtime';
 
 //! Writing clean and modern javascript
 //! Let's fix some bad code: part 1
+//! Declarative and Functional JavaScript Principles
+//? Imperative and Declarative codes
+//? Functional Programming is a declarative way
+
+//! Let's fix some bad code: part 2
