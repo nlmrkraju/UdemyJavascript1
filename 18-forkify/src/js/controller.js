@@ -18,10 +18,11 @@ import { async } from 'regenerator-runtime';
 //! Implementing Error and Success Messages
 //! Implementing Search Results - Part 1
 //! Implementing Search Results - Part 2
+//! Implementing Pagination - Part 1
 
-if (module.hot) {
-  module.hot.accept();
-}
+// if (module.hot) {
+//   module.hot.accept();
+// }
 
 const controlRecipes = async function () {
   try {
@@ -52,7 +53,8 @@ const controlSearchResults = async function () {
     await model.loadSearchResults(query);
 
     //? 3) Render results
-    resultsView.render(model.state.search.results);
+    // resultsView.render(model.state.search.results);
+    resultsView.render(model.getSearchResultsPage());
   } catch (err) {
     console.log(err);
   }
