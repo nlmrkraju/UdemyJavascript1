@@ -21,6 +21,7 @@ import { async } from 'regenerator-runtime';
 //! Implementing Search Results - Part 2
 //! Implementing Pagination - Part 1
 //! Implementing Pagination - Part 2
+//! Updating Recipe Servings
 
 // if (module.hot) {
 //   module.hot.accept();
@@ -73,8 +74,17 @@ const controlPagination = function (goToPage) {
   paginationView.render(model.state.search);
 };
 
+const controlServings = function (newServings) {
+  //? Update the recipe servings (in state)
+  model.updateServings(newServings);
+
+  //? Update the recipe view
+  recipeView.render(model.state.recipe);
+};
+
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
+  recipeView.addHandlerUpdateServings(controlServings);
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
 };
