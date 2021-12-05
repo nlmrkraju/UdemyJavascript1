@@ -1,5 +1,5 @@
 15744
-68C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist132831098549033172 1
+68C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist132832066100156177 1
 105C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\sshpk\lib\formats\rfc4253.js131837759770000000 0
 104C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\postcss-normalize-positions132817633883988541 1
 100C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\source-map\package.json132817633833451131 0
@@ -144,7 +144,7 @@
 100C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\cli-cursor\package.json132817633839535242 0
 102C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\crypto-browserify\LICENSE130578818580000000 0
 101C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\w3c-hr-time\CHANGELOG.md132279289610000000 0
-74C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\index.html132819135350316851 0
+74C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\index.html132831319231685628 0
 95C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\lodash\fp\clamp.js121436361000000000 0
 87C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\extsprintf132817633992654778 1
 96C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\ws\lib\constants.js121436361000000000 0
@@ -171,7 +171,7 @@
 105C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\@parcel\cache\lib\types.d.ts121436361000000000 0
 76C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules132819187144171948 1
 85C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\jake\lib132817632858278576 1
-84C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\src\js\controller.js132830636830029687 0
+84C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\src\js\controller.js132831350207209631 0
 101C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\is-callable\CHANGELOG.md121436361000000000 0
 115C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\highlight.js\lib\languages\makefile.js121436361000000000 0
 67C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\src132817424209336626 1
@@ -235,7 +235,7 @@
 101C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\postcss-discard-comments132817633905802440 1
 98C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\chalk\source\index.js121436361000000000 0
 98C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\nan\nan_object_wrap.h132319691430000000 0
-91C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\src\js\views\resultsView.js132827992063092633 0
+91C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\src\js\views\resultsView.js132831316884073420 0
 101C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\es-to-primitive\index.js121436361000000000 0
 96C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\lodash\eachRight.js121436361000000000 0
 122C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\htmlnano\lib\modules\removeAttributeQuotes.js121436361000000000 0
@@ -245,7 +245,7 @@
 104C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\har-schema\lib\request.json131370181680000000 0
 144C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\parser.js121436361000000000 0
 100C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\is-bigint\test\index.js121436361000000000 0
-90C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\src\js\views\recipeView.js132830632546523994 0
+90C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\src\js\views\recipeView.js132831341848782579 0
 96C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\cross-spawn\LICENSE132817632277671723 0
 95C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\path-type\index.js121436361000000000 0
 98C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\lodash\fp\takeLast.js121436361000000000 0
@@ -334,7 +334,7 @@
 106C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\@nodelib\fs.scandir\out\utils132817632681983720 1
 91C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\braces\LICENSE121436361000000000 0
 91C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\lodash\next.js121436361000000000 0
-79C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\src\js\model.js132830609592411215 0
+79C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\src\js\model.js132831349159826844 0
 99C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\@babel\types\lib\clone132817632587022028 1
 115C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\caniuse-lite\data\features\css-grid.js121436361000000000 0
 143C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\uncss\node_modules\postcss-selector-parser\dist\__tests__\lossy.js121436361000000000 0
@@ -403,7 +403,7 @@
 97C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\uncss\src\utility.js121436361000000000 0
 90C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\escalade\sync132817633010428787 1
 95C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\mimic-fn\readme.md121436361000000000 0
-84C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\src\js\views\View.js132830653148493345 0
+84C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\src\js\views\View.js132831318060922793 0
 111C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\highlight.js\scss\school-book.scss121436361000000000 0
 132C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\postcss-modules-values\node_modules\postcss\lib\node.js121436361000000000 0
 99C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\utils-merge\.npmignore131503400650000000 0
@@ -4660,7 +4660,7 @@
 98C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\statuses\package.json132817633829734163 0
 95C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\statuses\README.md131529954700000000 0
 93C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\sshpk\.npmignore130970391170000000 0
-87C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\icons.b3083592.svg132831098539718509 0
+87C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\icons.b3083592.svg132831347807968307 0
 107C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\source-map-support\register.js121436361000000000 0
 125C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\jake\test\integration\jakelib\concurrent.jake.js132361568290000000 0
 103C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\css-tree\lib\syntax\pseudo132817633002623241 1
@@ -9399,7 +9399,7 @@
 125C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\jsdom\lib\jsdom\living\events\TouchEvent-impl.js121436361000000000 0
 128C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\jsdom\lib\jsdom\living\domparsing\DOMParser-impl.js121436361000000000 0
 102C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\is-arrayish\.istanbul.yml130849956100000000 0
-86C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\index.05cf099e.js132831098548683522 0
+86C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\index.05cf099e.js132832066098287263 0
 123C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\jsdom\lib\jsdom\living\attributes\Attr-impl.js121436361000000000 0
 111C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\http-proxy-middleware\package.json132817633812973771 0
 99C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\@parcel\runtime-js\lib132817632305555785 1
@@ -11733,7 +11733,7 @@
 109C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\domexception\lib\DOMException.js131610547430000000 0
 117C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\domexception\lib\legacy-error-codes.json131471530860000000 0
 107C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\domexception\lib\public-api.js131471530860000000 0
-90C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\index.05cf099e.js.map132831098548923232 0
+90C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\index.05cf099e.js.map132832066099826388 0
 118C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\caniuse-lite\data\features\css-hyphens.js121436361000000000 0
 122C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\core-js\es\object\get-own-property-symbols.js121436361000000000 0
 102C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\domexception\lib\utils.js131610547430000000 0
@@ -12459,7 +12459,7 @@
 110C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\core-js\stable\typed-array\set.js121436361000000000 0
 117C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\@parcel\source-map\parcel_sourcemap_node132817632930284882 1
 112C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\core-js\stable\typed-array\slice.js121436361000000000 0
-87C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\icons.e7078503.svg132831098539708509 0
+87C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\icons.e7078503.svg132831347807968307 0
 111C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\core-js\stable\typed-array\some.js121436361000000000 0
 111C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\core-js\stable\typed-array\sort.js121436361000000000 0
 123C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\core-js\stable\typed-array\to-locale-string.js121436361000000000 0
@@ -13149,7 +13149,7 @@
 113C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\core-js\features\weak-map\emplace.js121436361000000000 0
 111C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\core-js\features\weak-map\index.js121436361000000000 0
 120C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\core-js\features\url-search-params\index.js121436361000000000 0
-87C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\index.612625cb.css132831098539708509 0
+87C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\index.612625cb.css132831347807968307 0
 118C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\core-js\es\number\virtual\to-precision.js121436361000000000 0
 106C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\core-js\features\url\index.js121436361000000000 0
 120C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\core-js\features\typed-array\copy-within.js121436361000000000 0
@@ -14797,7 +14797,7 @@
 101C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\@parcel\transformer-json132817633755958133 1
 104C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\@parcel\transformer-postcss132817633755988138 1
 100C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\@parcel\transformer-raw132817633755828193 1
-86C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\logo.c833fbb6.png132831098548313581 0
+86C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\logo.c833fbb6.png132831347807958305 0
 100C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\@parcel\transformer-svg132817633755708275 1
 90C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\@parcel\utils132817633761852985 1
 92C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\@parcel\watcher132817633932007202 1
@@ -15739,7 +15739,7 @@
 90C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\.bin\uuid.cmd132817634070433578 0
 87C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\.bin\which132817634071003231 0
 91C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\node_modules\.bin\which.ps1132817634070973266 0
-89C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\favicon.f563d3c3.png132831098548303593 0
+89C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\favicon.f563d3c3.png132831347807958305 0
 86C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\index.430fc437.js132818440858658783 0
-91C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\index.612625cb.css.map132831098540058321 0
-79C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\index.html132831098539708509 0
+91C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\index.612625cb.css.map132831347808738394 0
+79C:\Murali\Practice\UdemyJavascript1\JavascriptCource\18-forkify\dist\index.html132832066098277265 0
